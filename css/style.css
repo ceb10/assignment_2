@@ -1,0 +1,102 @@
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+body {
+  width: 100%;
+  height: 100%; }
+
+html {
+  width: 100%;
+  height: 100%; }
+
+@media (min-width: 767px) {
+  .navbar {
+    padding: 20px 0;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out; }
+
+  .top-nav-collapse {
+    padding: 0; } }
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+#vid {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 5%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url(/img/beer.png) no-repeat;
+  background-size: cover; }
+
+.intro-section {
+  height: 100%;
+  padding-top: 420px;
+  text-align: center;
+  color: white;
+  background-size: cover; }
+  .intro-section h1 {
+    font-size: 800%;
+    text-align: center; }
+
+.about-section {
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+  color: black;
+  background-color: #646464; }
+
+.specials-section {
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+  background: #fff;
+  color: white;
+  width: 101.5%;
+  background-image: url(/img/Brick-wallaper-For-Background-15.jpg);
+  margin-top: -10px;
+  margin-left: -10px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+.gallery-section {
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+  background: #fff; }
+
+.contact-section {
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+  background: #fff;
+  color: white;
+  width: 101.5%;
+  background-image: url(/img/p-winery-wood-barrels-qZzSygO6pm-1.jpg);
+  margin-top: -10px;
+  margin-left: -10px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+@media screen and (max-device-width: 800px) {
+  html {
+    background: url(/img/beer.png) #000 no-repeat center center fixed; }
+
+  #vid {
+    display: none;
+    top: -10px;
+    position: fixed; } }
+
+/*# sourceMappingURL=style.css.map */
