@@ -53,9 +53,7 @@
                     <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#bars">Bars</a>
-                    </li>
+                    
                     <li>
                         <a class="page-scroll" href="#specials">Specials</a>
                     </li>  
@@ -101,6 +99,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1>About Section</h1>
+                    
+                    
+                    
                 </div>
             </div>
         </div>
@@ -115,7 +116,32 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Specials Section</h1>
+               <h1>Drink Specials</h1>   
+    <table class="drinks">
+          
+    <thead>
+        <tr>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>No Specials</td>
+            <td>$2 Shots <br/>10pm &#45; 12am</td>
+            <td>$1 Everything <br/>9pm &#45; 12am</td>
+            <td>$2 Small Pitches of any Draft Beer <br/>All Day</td>
+            <td>Quarter Drafts and $2 Mixed Drinks <br/>10pm &#45; 12am </td>
+            <td>$1 Wells and Student Discount 20% <br/>9pm &#45; 12am</td>
+        </tr>
+    
+      
+    </tbody>
+</table>
                 </div>
             </div>
         </div>
@@ -124,12 +150,49 @@
     <!-- Gallery Section -->
     <section id="gallery" class="gallery-section">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Gallery Section</h1>
-                </div>
-            </div>
-        </div>
+          <div class="row">
+    <h1>Gallery</h1>
+    <div class="col-md-4">
+
+        <a href="img/bar1.jpg" data-title="Top-Shelf Drinks" data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" title="Top-Shelf Drinks"><img src="img/bar1.jpg" class="img-thumbnail"></a>
+
+    </div>
+    <div class="col-md-4">
+       
+        <a href="img/bar2.jpg" data-title="Drinking Area" data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" title="Drinking Area"><img src="img/bar2.jpg" class="img-thumbnail"></a>
+    </div>
+    <div class="col-md-4">
+       
+        <a href="img/bar9.jpg" data-title="Martini" data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" title="Martini"><img src="img/bar9.jpg" class="img-thumbnail"></a>
+    </div>
+    <div class="col-md-4">
+        
+        <a href="img/bar4.jpg" data-title="Mojito" data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" title="Mojito"><img src="img/bar4.jpg" class="img-thumbnail"></a>
+    </div>
+    <div class="col-md-4">
+       
+        <a href="img/bar5.jpg" data-title="Main Bar" data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" title="Main Bar"><img src="img/bar5.jpg" class="img-thumbnail"></a>
+    </div>
+    <div class="col-md-4">
+        
+        <a href="img/bar6.jpg" data-title="Cheers!" data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" title="Cheers!"><img src="img/bar6.jpg" class="img-thumbnail"></a>
+    </div>
+    <div class="col-md-4">
+       
+        <a href="img/bar7.jpg" data-title="Morning Brunch" data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" title="Morning Brunch"><img src="img/bar7.jpg" class="img-thumbnail"></a>
+    </div>
+    <div class="col-md-4">
+      
+        <a href="img/bar8.jpg" data-title="Snack Time" data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" title="Snack Time"><img src="img/bar8.jpg" class="img-thumbnail"></a>
+    </div>
+    <div class="col-md-4">
+       
+         <a href="img/bar3.jpg" data-title="Weizen" data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" title="Weizen"><img src="img/bar3.jpg" class="img-thumbnail"></a>
+       
+    </div>
+
+</div>
+</div>
     </section>  
     <!-- Contact Section -->
     <section id="contact" class="contact-section">
@@ -141,7 +204,12 @@
             </div>
         </div>
     </section>
-
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+     
+   
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
@@ -152,6 +220,16 @@
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
 
+    <!--content delivery network-->
+    <script src="js/ekko-lightbox.js"></script>
+     <script>$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+}); 
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+});
+    </script>
 </body>
 
 </html>

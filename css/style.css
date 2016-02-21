@@ -11,6 +11,9 @@ html {
   width: 100%;
   height: 100%; }
 
+h1 {
+  font-size: 320%; }
+
 @media (min-width: 767px) {
   .navbar {
     padding: 20px 0;
@@ -58,7 +61,7 @@ of those sections to manage the look and feel of the site. */
 
 .specials-section {
   height: 100%;
-  padding-top: 150px;
+  padding-top: 70px;
   text-align: center;
   background: #fff;
   color: white;
@@ -69,12 +72,30 @@ of those sections to manage the look and feel of the site. */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover; }
+  .specials-section .drinks {
+    display: inline-block;
+    text-align: center;
+    margin-left: -17%;
+    background-color: rgba(0, 0, 0, 0.39);
+    height: 100%; }
+    .specials-section .drinks th {
+      padding: 50px;
+      font-size: 250%;
+      text-align: center; }
+    .specials-section .drinks td {
+      font-size: 175%;
+      padding: 20px; }
 
 .gallery-section {
   height: 100%;
-  padding-top: 150px;
+  padding-top: 70px;
   text-align: center;
   background: #fff; }
+
+.bar {
+  width: 300px;
+  height: 200px;
+  padding-bottom: 10px; }
 
 .contact-section {
   height: 100%;
